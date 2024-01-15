@@ -1,0 +1,229 @@
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> git add --all
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> git commit -m Init
+[master 3a002ce] Init
+ 34 files changed, 421 insertions(+), 1 deletion(-)
+ rename Projects/{1-Beginner => Bin2Dec}/Bin2Dec-App.md (100%)
+ create mode 100644 Projects/Bin2Dec/Bin2Dec.csproj
+ create mode 100644 Projects/Bin2Dec/Program.cs
+ create mode 100644 Projects/Bin2Dec/bin/Debug/net8.0/Bin2Dec.deps.json
+ create mode 100644 Projects/Bin2Dec/bin/Debug/net8.0/Bin2Dec.dll
+ create mode 100644 Projects/Bin2Dec/bin/Debug/net8.0/Bin2Dec.exe
+ create mode 100644 Projects/Bin2Dec/bin/Debug/net8.0/Bin2Dec.pdb
+ create mode 100644 Projects/Bin2Dec/bin/Debug/net8.0/Bin2Dec.runtimeconfig.json
+ create mode 100644 Projects/Bin2Dec/obj/Bin2Dec.csproj.nuget.dgspec.json
+ create mode 100644 Projects/Bin2Dec/obj/Bin2Dec.csproj.nuget.g.props
+ create mode 100644 Projects/Bin2Dec/obj/Bin2Dec.csproj.nuget.g.targets
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs   
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.AssemblyInfo.cs
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.AssemblyInfoInputs.cache
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.assets.cache
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.csproj.CoreCompileInputs.cache
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.csproj.FileListAbsolute.txt
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.dll
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.genruntimeconfig.cache
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.pdb
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/Bin2Dec.sourcelink.json
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/apphost.exe
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/ref/Bin2Dec.dll
+ create mode 100644 Projects/Bin2Dec/obj/Debug/net8.0/refint/Bin2Dec.dll
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> git log
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> git add --all
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> git commit -m
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1010 bytes | 1010.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Jinboi/app-ideas.git
+   3a002ce..a30a5fc  master -> master
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec>
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Bin2Dec> cd.. 
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> dotnet new console
+Processing post-creation actions...
+Restoring C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator\Calculator.csproj:     
+  Determining projects to restore...
+  Restored C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator\Calculator.csproj (in 
+   101 ms).
+Restore succeeded.
+
+
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> dotnet run
+Hello, World!
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git add all
+fatal: pathspec 'all' did not match any files
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git add --all
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git commit -m "First Attemp" 
+[master 58dfd24] First Attemp
+ 28 files changed, 267 insertions(+)
+ rename Projects/{1-Beginner => Calculator}/Calculator-App.md (100%)
+ create mode 100644 Projects/Calculator/Calculator.csproj
+ create mode 100644 Projects/Calculator/Program.cs
+ create mode 100644 Projects/Calculator/bin/Debug/net8.0/Calculator.deps.json
+ create mode 100644 Projects/Calculator/bin/Debug/net8.0/Calculator.dll
+ create mode 100644 Projects/Calculator/bin/Debug/net8.0/Calculator.exe
+ create mode 100644 Projects/Calculator/bin/Debug/net8.0/Calculator.pdb
+ create mode 100644 Projects/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+ create mode 100644 Projects/Calculator/obj/Calculator.csproj.nuget.dgspec.json
+ create mode 100644 Projects/Calculator/obj/Calculator.csproj.nuget.g.props
+ create mode 100644 Projects/Calculator/obj/Calculator.csproj.nuget.g.targets
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.GlobalUsings.g.cs
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.assets.cache
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.csproj.FileListAbsolute.txt
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.dll
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.pdb
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/Calculator.sourcelink.json
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/apphost.exe
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/ref/Calculator.dll
+ create mode 100644 Projects/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+ create mode 100644 Projects/Calculator/obj/project.assets.json
+ create mode 100644 Projects/Calculator/obj/project.nuget.cache
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git push
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (35/35), 77.71 KiB | 3.11 MiB/s, done.
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/Jinboi/app-ideas.git
+   a30a5fc..58dfd24  master -> master
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git add --all                
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git commit -m "First Attemp" 
+[master f8ce3c6] First Attemp
+ 1 file changed, 112 insertions(+)
+ create mode 100644 Projects/Calculator/output.txt
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git push                     
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.55 KiB | 1.55 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Jinboi/app-ideas.git
+   58dfd24..f8ce3c6  master -> master
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git branch -b dev/1000-calculator 
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --[no-]verbose    show hash and subject, give twice for upstream branch
+    -q, --[no-]quiet      suppress informational messages
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --[no-]set-upstream-to <upstream>
+                          change the upstream info
+    --[no-]unset-upstream unset the upstream info
+    --[no-]color[=<when>] use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --[no-]delete     delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --[no-]move       move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --[no-]omit-empty     do not output a newline after empty formatted refs
+    -c, --[no-]copy       copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --[no-]list       list branch names
+    --[no-]show-current   show current branch name
+    --[no-]create-reflog  create the branch's reflog
+    --[no-]edit-description
+                          edit the description for the branch
+    -f, --[no-]force      force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --[no-]column[=<style>]
+                          list branches in columns
+    --[no-]sort <key>     field name to sort on
+    -i, --[no-]ignore-case
+                          sorting and filtering are case insensitive
+                          format to use for the output
+
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git branch -d dev/1000-calcul
+ator
+error: branch 'dev/1000-calculator' not found
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git branch dev/1000-calculator
+fatal: a branch named 'dev/1000-calculator' already exists
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git checkout dev/1000-calculator
+Switched to branch 'dev/1000-calculator'
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git add --all
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git commit -m "Committing to branch instead of master"
+[dev/1000-calculator b57e71b] Committing to branch instead of master
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: The current branch dev/1000-calculator has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev/1000-calculator
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git push --set-upstream origin dev/1000-calculator   
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 457 bytes | 457.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote: 
+remote:      https://github.com/Jinboi/app-ideas/pull/new/dev/1000-calculator
+remote:
+To https://github.com/Jinboi/app-ideas.git
+ * [new branch]      dev/1000-calculator -> dev/1000-calculator
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Updating f8ce3c6..b57e71b
+Fast-forward
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jinboi/app-ideas.git
+   f8ce3c6..b57e71b  master -> master
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git checkout dev/1000-calculator
+Your branch is up to date with 'origin/dev/1000-calculator'.
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git fetch                                            
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+Unpacking objects: 100% (1/1), 637 bytes | 79.00 KiB/s, done.
+From https://github.com/Jinboi/app-ideas
+   b57e71b..38ad633  master     -> origin/master
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git pull
+Updating b57e71b..38ad633
+Fast-forward
+ Projects/Calculator/Program.cs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> git log
+commit 38ad63314c65eb52cc00c1f4e79426f5a636a7af (HEAD -> master, origin/master, origin/HEAD)
+Merge: b57e71b 1fdba6e
+Author: Jinboi <65874606+Jinboi@users.noreply.github.com>
+Date:   Sun Jan 14 21:14:14 2024 -0800
+
+    Merge pull request #1 from Jinboi/dev/1000-calculator
+
+    this is commit number 2
+
+commit 1fdba6e4ec0a4b3c25e2b7b4ed3b7d36abc5e53b (origin/dev/1000-calculator, dev/1000-calculator)
+Author: Jinboi <65874606+Jinboi@users.noreply.github.com>
+Date:   Sun Jan 14 21:10:27 2024 -0800
+
+    this is commit number 2
+
+PS C:\Users\Youngwoo\Desktop\CsharpProjects\AppIdeas\app-ideas\Projects\Calculator> 
